@@ -1,4 +1,7 @@
-﻿int[] createArray(int size, int min, int max)
+// Напишите программу, которая перевернёт
+// одномерный массив (первый элемент станет
+// последним, второй – предпоследним и т.д.)
+int[] createArray(int size, int min, int max)
 {
     int[] array = new int [size];
     for (int i = 0; i < array.Length; i++)
